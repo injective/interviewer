@@ -1,0 +1,30 @@
+.userListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+
+  &:nth-of-type(odd) {
+    background-color: #eee;
+  }
+  &:nth-of-type(even) {
+    background-color: #fefefe;
+  }
+
+}
+
+.userName {
+  width: 25%;
+}
+.userJob {
+  width: 15%;
+}
+.userEmail {
+  width: 50%;
+}
+.userDate {
+  width: 10%;
+}
